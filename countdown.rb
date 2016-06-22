@@ -1,7 +1,4 @@
 #write your code here
-
-
-
 def countdown(number)
   number = 10
   while 0 < number
@@ -10,7 +7,6 @@ def countdown(number)
     return "HAPPY NEW YEAR!"
     end
 end
-
 
 def countdown_with_sleep(sleep)
   sleep(5)
