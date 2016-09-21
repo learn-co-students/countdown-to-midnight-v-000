@@ -5,13 +5,13 @@ def countdown(number)
     while number > 0
 #outputting "#{number} SECOND(S)!" in each iteration of the loop
       puts"#{number} SECOND(S)!"
-      number-=
+      number-=1
     end
       if number==0
          puts"HAPPY HEW YEAR!"
       end
 end
 
-def countdown_with_sleep
+def countdown_with_sleep(number)
   sleep(1)
-  end
+end
