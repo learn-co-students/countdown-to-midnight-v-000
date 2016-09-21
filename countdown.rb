@@ -8,10 +8,12 @@ def countdown(number)
       number-=1
     end
       if number==0
-         puts"HAPPY HEW YEAR!"
+         return "HAPPY NEW YEAR!"
       end
 end
 
 def countdown_with_sleep(number)
-  sleep(1)
+  number+=1
+  if number>=5
+    true
 end
