@@ -9,6 +9,7 @@ def countdown(number)
     end
       if number==0
          puts"HAPPY HEW YEAR!"
+      end
 end
 
 def countdown_with_sleep
