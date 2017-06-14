@@ -14,7 +14,7 @@ def countdown_with_sleep(number)
     number -= 1
         sleep 1
     end
-    puts "HAPPY NEW YEAR!"
+    "HAPPY NEW YEAR!"
   end
 # sleep(num_secs)
 # The 'num_secs' value can be an integer or float. Also, if you're writing this within a Rails app, or have included the ActiveSupport library elsewhere in your project, you can construct longer intervals using the following convenience syntax:
