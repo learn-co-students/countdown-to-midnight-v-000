@@ -1,5 +1,5 @@
 #write your code here
-
+require 'pry'
 
 
 def countdown(number)
@@ -12,8 +12,8 @@ end
 
 def countdown_with_sleep(seconds)
   while seconds > 0
-  sleep(1)
+    sleep(1)
   seconds -= 1
-end
-  
-end
+    end
+  "HAPPY NEW YEAR!"
+  end
