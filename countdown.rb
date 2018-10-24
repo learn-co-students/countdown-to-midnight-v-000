@@ -1,10 +1,15 @@
 
 
 def countdown(number)
-  number = 10
-  while counter < 10
-  puts "#{number}SECOND(S)!"
-  counter-=1
-  puts "HAPPY NEW YEAR!"
-  end
+  while number
+  puts "#{number} SECOND(S)!"
+  number -= 1
+   if number == 0 
+   return "HAPPY NEW YEAR!"
+   break
+   end
+end
+end
+def countdown_with_sleep(number)
+sleep(5) 
 end
