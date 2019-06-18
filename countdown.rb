@@ -1,5 +1,5 @@
 #write your code here
 
 def countdown
-    1
+    12
 end
