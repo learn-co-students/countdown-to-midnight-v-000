@@ -11,7 +11,7 @@ describe 'LOOPS' do
     end
 
     it 'returns HAPPY NEW YEAR!' do
-      expect(countdown(12)).to eq "HAPPY NEW YEAR!"
+      expect(countdown(0)).to eq "HAPPY NEW YEAR!"
     end
   end
 
