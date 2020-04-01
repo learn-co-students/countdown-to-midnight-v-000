@@ -18,3 +18,6 @@ def countdown_with_sleep (number)
   end
  return "HAPPY NEW YEAR!"
 end
+
+# things learned
+# - i didn't have my return "HAPPY NEW YEAR!" line of code in the correct place initially i put it at the bottom of the code but i had to put it in between the last two "ends" which signified i was letting the "while" block finish and then once finished would return "HAPPY NEW YEAR"
